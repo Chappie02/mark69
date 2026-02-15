@@ -1,0 +1,30 @@
+# Raspberry Pi 5 (4GB) - Offline Multimodal Robotic AI Assistant
+# Python 3.10+
+
+# GPIO & hardware
+gpiozero>=1.6.2
+RPi.GPIO>=0.7.1
+
+# OLED SSD1306
+adafruit-circuitpython-ssd1306>=2.12.0
+Pillow>=10.0.0
+
+# Camera
+picamera2>=0.3.12
+
+# Audio
+pyaudio>=0.2.14
+vosk>=0.3.45
+
+# TTS (Piper)
+piper-tts>=1.2.0
+
+# LLM (llama.cpp)
+llama-cpp-python>=0.2.0
+
+# Vision
+ultralytics>=8.0.0
+numpy>=1.24.0
+
+# Optional: I2C for OLED (often system-installed on RPi)
+# adafruit-blinka  # if using CircuitPython on RPi
