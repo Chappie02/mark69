@@ -1,0 +1,26 @@
+# Offline multimodal AI assistant — Raspberry Pi 5 (4GB)
+# Python 3.9+
+
+# OLED display
+Adafruit-Blinka
+adafruit-circuitpython-ssd1306
+Pillow
+
+# Audio
+PyAudio
+
+# STT (offline)
+vosk
+
+# TTS fallback
+pyttsx3
+
+# LLM (llama.cpp)
+llama-cpp-python
+
+# Vision
+picamera2
+ultralytics
+
+# Optional: Piper TTS is installed separately (binary)
+# https://github.com/rhasspy/piper
