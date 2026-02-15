@@ -1,0 +1,47 @@
+# RPi5 Multimodal AI Assistant - Requirements
+
+## Core Runtime
+python>=3.9
+Pillow>=9.0.0
+numpy>=1.23.0
+
+## GPIO & Hardware
+RPi.GPIO>=0.7.0
+picamera2>=0.3.0
+luma.core>=1.26.0
+luma.oled>=3.10.0
+smbus2>=0.4.3
+
+## Audio Processing
+pyaudio>=0.2.11
+pydub>=0.25.1
+
+## Speech Recognition (STT)
+faster-whisper>=0.9.0
+
+## Text-to-Speech
+pyttsx3>=2.90
+
+## LLM Inference
+llama-cpp-python>=0.2.0
+
+## Vision/Object Detection
+ultralytics>=8.0.0
+opencv-python>=4.7.0
+
+## RAG & Embeddings
+chromadb>=0.3.21
+sentence-transformers>=2.2.0
+
+## Utilities
+python-dotenv>=1.0.0
+click>=8.1.0
+
+# Hugging Face utilities for model snapshot downloads
+huggingface_hub>=0.16.4
+tqdm>=4.65.0
+
+# Optional: Development
+pytest>=7.0.0
+black>=23.0.0
+pylint>=2.15.0
