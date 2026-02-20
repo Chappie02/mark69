@@ -1,0 +1,19 @@
+# Hardware
+adafruit-circuitpython-ssd1306
+adafruit-blinka
+RPi.GPIO
+picamera2
+
+# AI / Vision
+ultralytics
+llama-cpp-python
+
+# Audio
+sounddevice
+scipy
+faster-whisper
+piper-tts
+
+# Core
+Pillow
+numpy
